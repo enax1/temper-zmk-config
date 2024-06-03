@@ -32,8 +32,8 @@ layers:
   - /
   - ⌘
   - num
-  - SPACE
   - {t: ⇧, s: ⇪}
+  - SPACE
   - nav
   - {t: BACKSPACE, s: Alt+ BACKSPACE}
   num:
