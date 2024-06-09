@@ -1,7 +1,7 @@
 layers:
   default:
-  - Q
-  - W
+  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD Q))
+  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD W))
   - E
   - R
   - T
