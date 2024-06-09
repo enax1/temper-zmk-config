@@ -97,7 +97,7 @@
             require-prior-idle-ms = <150>;
             flavor = "balanced";
             hold-trigger-on-release;
-            hold-trigger-key-positions = <5 5 6 7 8 9 15 16 17 18 19 27 25 26 28 29 30 31 32 33 34 35>;
+            hold-trigger-key-positions = <5 6 7 8 9 15 16 17 18 19 27 25 26 28 29 30 31 32 33 34 35>;
         };
 
         ht_right: ht_right {
@@ -168,9 +168,9 @@
 
         default_layer {
             bindings = <
-  &kp HU_Q           &kp HU_W          &kp E            &kp R            &kp T                 &kp Y                &kp U             &kp I             &kp O              &kp P
-  &ht_left LSHIFT A  &ht_left LCTRL S  &ht_left LALT D  &ht_left LGUI F  &ht_left_layer 4 G    &ht_right_layer 4 H  &ht_right RGUI J  &ht_right RALT K  &ht_right RCTRL L  &ht_right SEMI RSHFT
-  &kp Z              &kp X             &kp C            &kp V            &kp B                 &kp N                &kp M             &kp COMMA         &kp DOT            &kp FSLH
+  &kp HU_Q           &kp HU_W          &kp HU_E            &kp HU_R            &kp HU_T                 &kp HU_Y                &kp HU_U             &kp HU_I             &kp HU_O              &kp HU_P
+  &ht_left LSHIFT HU_A  &ht_left LCTRL HU_S  &ht_left LALT HU_D  &ht_left LGUI HU_F  &ht_left_layer 4 HU_G    &ht_right_layer 4 HU_H  &ht_right RGUI HU_J  &ht_right RALT HU_K  &ht_right RCTRL HU_L  &ht_right SEMI RSHFT
+  &kp HU_Z              &kp HU_X             &kp HU_C            &kp HU_V            &kp HU_B                 &kp HU_N                &kp HU_M             &kp COMMA         &kp DOT            &kp FSLH
                                        &kp LGUI         &mo 1            &smart_shft           &kp SPACE            &mo 2             &super_bspc
             >;
         };
