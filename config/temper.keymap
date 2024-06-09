@@ -168,10 +168,10 @@
 
         default_layer {
             bindings = <
-  &kp HU_Q           &kp HU_W          &kp HU_E            &kp HU_R            &kp HU_T                 &kp HU_Y                &kp HU_U             &kp HU_I             &kp HU_O              &kp HU_P
-  &ht_left LSHIFT HU_A  &ht_left LCTRL HU_S  &ht_left LALT HU_D  &ht_left LGUI HU_F  &ht_left_layer 4 HU_G    &ht_right_layer 4 HU_H  &ht_right RGUI HU_J  &ht_right RALT HU_K  &ht_right RCTRL HU_L  &ht_right SEMI RSHFT
-  &kp HU_Z              &kp HU_X             &kp HU_C            &kp HU_V            &kp HU_B                 &kp HU_N                &kp HU_M             &kp COMMA         &kp DOT            &kp FSLH
-                                       &kp LGUI         &mo 1            &smart_shft           &kp SPACE            &mo 2             &super_bspc
+  &kp HU_Q              &kp HU_W             &kp HU_E            &kp HU_R            &kp HU_T                 &kp HU_Y                &kp HU_U             &kp HU_I             &kp HU_O              &kp HU_P
+  &ht_left LSHIFT HU_A  &ht_left LCTRL HU_S  &ht_left LALT HU_D  &ht_left LGUI HU_F  &ht_left_layer 4 HU_G    &ht_right_layer 4 HU_H  &ht_right RGUI HU_J  &ht_right RALT HU_K  &ht_right RCTRL HU_L  &ht_right HU_SEMI RSHFT
+  &kp HU_Z              &kp HU_X             &kp HU_C            &kp HU_V            &kp HU_B                 &kp HU_N                &kp HU_M             &kp COMMA            &kp DOT               &kp FSLH
+                                             &kp LGUI            &mo 1               &smart_shft              &kp SPACE               &mo 2                &super_bspc
             >;
         };
 
