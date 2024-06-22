@@ -114,26 +114,6 @@
             hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 30 31 32 33 34 35>;
         };
 
-        lang_hu_u: lang_hu_u {
-            compatible = "zmk,behavior-tap-dance";
-            label = "LANG_HU_U";
-            #binding-cells = <0>;
-            bindings =
-                <&kp HU_U_ACUTE>,
-                <&kp HU_U_UMLAUT>,
-                <&kp HU_U_DOUBLE_ACUTE>;
-        };
-
-        lang_hu_o: lang_hu_o {
-            compatible = "zmk,behavior-tap-dance";
-            label = "LANG_HU_O";
-            #binding-cells = <0>;
-            bindings =
-                <&kp HU_O_ACUTE>,
-                <&kp HU_O_UMLAUT>,
-                <&kp HU_O_DOUBLE_ACUTE>;
-        };
-
         ht_left_layer: ht_left_layer {
             compatible = "zmk,behavior-hold-tap";
             label = "HT_LEFT_LAYER";
@@ -169,7 +149,7 @@
         default_layer {
             bindings = <
   &kp HU_Q              &kp HU_W             &kp HU_E            &kp HU_R            &kp HU_T                 &kp HU_Y                &kp HU_U             &kp HU_I             &kp HU_O              &kp HU_P
-  &ht_left LSHIFT HU_A  &ht_left LCTRL HU_S  &ht_left LALT HU_D  &ht_left LGUI HU_F  &ht_left_layer 4 HU_G    &ht_right_layer 4 HU_H  &ht_right RGUI HU_J  &ht_right RALT HU_K  &ht_right RCTRL HU_L  &ht_right HU_SEMI RSHFT
+  &ht_left LSHIFT HU_A  &ht_left LCTRL HU_S  &ht_left LALT HU_D  &ht_left LGUI HU_F  &ht_left_layer 0 HU_G    &ht_right_layer 0 HU_H  &ht_right RGUI HU_J  &ht_right RALT HU_K  &ht_right RCTRL HU_L  &ht_right HU_SEMI RSHFT
   &kp HU_Z              &kp HU_X             &kp HU_C            &kp HU_V            &kp HU_B                 &kp HU_N                &kp HU_M             &kp COMMA            &kp DOT               &kp FSLH
                                              &kp LGUI            &mo 1               &smart_shft              &kp SPACE               &mo 2                &super_bspc
             >;
@@ -199,15 +179,6 @@
   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4    &trans       &kp F4  &kp F5  &kp F6  &kp F11
   &bt BT_CLR    &kp C_PREV    &bt BT_CLR_ALL  &kp C_NEXT    &bootloader     &bootloader  &kp F1  &kp F2  &kp F3  &kp F10
                               &trans          &trans        &trans          &trans       &trans  &trans
-            >;
-        };
-
-        lang_hu {
-            bindings = <
-  &trans          &trans  &kp HU_E_ACUTE  &trans  &trans    &trans  &lang_hu_u  &kp HU_I_ACUTE  &lang_hu_o  &trans
-  &kp HU_A_ACUTE  &trans  &trans          &trans  &trans    &trans  &trans      &trans          &trans      &trans
-  &trans          &trans  &trans          &trans  &trans    &trans  &trans      &trans          &trans      &trans
-                          &trans          &trans  &trans    &trans  &trans      &trans
             >;
         };
     };
