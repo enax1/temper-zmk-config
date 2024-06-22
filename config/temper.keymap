@@ -119,9 +119,9 @@
             label = "LANG_HU_U";
             #binding-cells = <0>;
             bindings =
-                <&kp HU_U_ACUTE>,
-                <&kp HU_U_UMLAUT>,
-                <&kp HU_U_DOUBLE_ACUTE>;
+                <&kp HU_UACU>,
+                <&kp HU_UDIA>,
+                <&kp HU_UDAC>;
         };
 
         lang_hu_o: lang_hu_o {
@@ -129,9 +129,9 @@
             label = "LANG_HU_O";
             #binding-cells = <0>;
             bindings =
-                <&kp HU_O_ACUTE>,
-                <&kp HU_O_UMLAUT>,
-                <&kp HU_U_DOUBLE_ACUTE>;
+                <&kp HU_OACU>,
+                <&kp HU_ODIA>,
+                <&kp HU_UDAC>;
         };
 
         ht_left_layer: ht_left_layer {
@@ -204,9 +204,9 @@
 
         lang_hu {
             bindings = <
-  &trans          &trans          &kp HU_E_ACUTE         &trans           &trans            &trans  &lang_hu_u  &kp HU_I_ACUTE  &lang_hu_o  &trans
-  &kp HU_A_ACUTE  &kp HU_E_ACUTE  &kp HU_O_UMLAUT        &kp HU_U_UMLAUT  &kp HU_U_ACUTE    &trans  &trans      &trans          &trans      &trans
-  &trans          &trans          &kp HU_O_DOUBLE_ACUTE  &kp HU_I_ACUTE   &trans            &trans  &trans      &trans          &trans      &trans
+  &trans          &trans          &kp HU_EACU         &trans           &trans            &trans  &lang_hu_u  &kp HU_IACU  &lang_hu_o  &trans
+  &kp HU_AACU  &kp HU_EACU  &kp HU_ODIA        &kp HU_UDIA  &kp HU_UACU    &trans  &trans      &trans          &trans      &trans
+  &trans          &trans          &kp HU_ODACU  &kp HU_IACU   &trans            &trans  &trans      &trans          &trans      &trans
                                   &trans                 &trans           &trans            &trans  &trans      &trans
             >;
         };
