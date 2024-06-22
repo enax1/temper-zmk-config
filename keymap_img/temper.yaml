@@ -150,15 +150,15 @@ layers:
   lang_hu:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - HU E ACUTE
+  - {t: ;, s: ':'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&lang_hu_u'
-  - HU I ACUTE
+  - NUBS
   - '&lang_hu_o'
   - {t: ▽, type: trans}
-  - HU A ACUTE
+  - ''''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
