@@ -1,32 +1,32 @@
 layers:
   default:
-  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD Q))
-  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD W))
-  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD E))
-  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD R))
-  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD T))
-  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD Y))
-  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD U))
-  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD I))
-  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD O))
-  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD P))
-  - '&ht_left LSHIFT (ZMK_HID_USAGE(HID_USAGE_KEY HID_USAGE_KEY_KEYBOARD_A))'
-  - '&ht_left LCTRL (ZMK_HID_USAGE(HID_USAGE_KEY HID_USAGE_KEY_KEYBOARD_S))'
-  - '&ht_left LALT (ZMK_HID_USAGE(HID_USAGE_KEY HID_USAGE_KEY_KEYBOARD_D))'
-  - '&ht_left LGUI (ZMK_HID_USAGE(HID_USAGE_KEY HID_USAGE_KEY_KEYBOARD_F))'
-  - '&ht_left_layer 4 (ZMK_HID_USAGE(HID_USAGE_KEY HID_USAGE_KEY_KEYBOARD_G))'
-  - '&ht_right_layer 4 (ZMK_HID_USAGE(HID_USAGE_KEY HID_USAGE_KEY_KEYBOARD_H))'
-  - '&ht_right RGUI (ZMK_HID_USAGE(HID_USAGE_KEY HID_USAGE_KEY_KEYBOARD_J))'
-  - '&ht_right RALT (ZMK_HID_USAGE(HID_USAGE_KEY HID_USAGE_KEY_KEYBOARD_K))'
-  - '&ht_right RCTRL (ZMK_HID_USAGE(HID_USAGE_KEY HID_USAGE_KEY_KEYBOARD_L))'
-  - '&ht_right ((RA(ZMK_HID_USAGE(HID_USAGE_KEY HID_USAGE_KEY_KEYBOARD_COMMA_AND_LESS_THAN)))) RSHFT'
-  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD Z))
-  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD X))
-  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD C))
-  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD V))
-  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD B))
-  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD N))
-  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD M))
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: A, h: LSHIFT}
+  - {t: S, h: ⌃}
+  - {t: D, h: ⎇}
+  - {t: F, h: ⌘}
+  - {t: G, h: lang_hu}
+  - {t: H, h: lang_hu}
+  - {t: J, h: ⌘}
+  - {t: K, h: ⎇}
+  - {t: L, h: ⌃}
+  - {t: ⇧, h: HU SEMI}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - /
@@ -150,19 +150,19 @@ layers:
   lang_hu:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD SEMICOLON AND COLON))
+  - {t: ;, s: ':'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&lang_hu_u'
-  - (RA(ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD I)))
+  - NUBS
   - '&lang_hu_o'
   - {t: ▽, type: trans}
-  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD APOSTROPHE AND QUOTE))
-  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD SEMICOLON AND COLON))
-  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD 0 AND RIGHT PARENTHESIS))
-  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD MINUS AND UNDERSCORE))
-  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD RIGHT BRACKET AND RIGHT BRACE))
+  - ''''
+  - {t: ;, s: ':'}
+  - '0'
+  - {t: '-', s: _}
+  - {t: ']', s: '}', type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -170,8 +170,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD LEFT BRACKET AND LEFT BRACE))
-  - (RA(ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD I)))
+  - HU ODACU
+  - NUBS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
