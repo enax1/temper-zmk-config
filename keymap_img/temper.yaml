@@ -19,7 +19,7 @@ layers:
   - {t: J, h: ⌘}
   - {t: K, h: ⎇}
   - {t: L, h: ⌃}
-  - {t: ⇧, h: HU SEMI}
+  - {t: ⇧, h: ;}
   - Z
   - X
   - C
@@ -170,7 +170,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - HU ODACU
+  - {t: '[', s: '{'}
   - NUBS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
