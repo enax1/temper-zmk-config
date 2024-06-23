@@ -1,32 +1,32 @@
 layers:
   default:
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - {t: A, h: LSHIFT}
-  - {t: S, h: ⌃}
-  - {t: D, h: ⎇}
-  - {t: F, h: ⌘}
-  - {t: G, h: lang_hu}
-  - {t: H, h: lang_hu}
-  - {t: J, h: ⌘}
-  - {t: K, h: ⎇}
-  - {t: L, h: ⌃}
+  - HU Q
+  - HU W
+  - HU E
+  - HU R
+  - HU T
+  - HU Y
+  - HU U
+  - HU I
+  - HU O
+  - HU P
+  - {t: HU A, h: LSHIFT}
+  - {t: HU S, h: ⌃}
+  - {t: HU D, h: ⎇}
+  - {t: HU F, h: ⌘}
+  - {t: HU G, h: lang_hu}
+  - {t: HU H, h: lang_hu}
+  - {t: HU J, h: ⌘}
+  - {t: HU K, h: ⎇}
+  - {t: HU L, h: ⌃}
   - {t: ⇧, h: ;}
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
+  - HU Z
+  - HU X
+  - HU C
+  - HU V
+  - HU B
+  - HU N
+  - HU M
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - /
@@ -150,19 +150,19 @@ layers:
   lang_hu:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ;, s: ':'}
+  - HU EACU
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&lang_hu_u'
-  - NUBS
+  - HU IACU
   - '&lang_hu_o'
   - {t: ▽, type: trans}
-  - ''''
-  - {t: ;, s: ':'}
-  - '0'
-  - {t: '-', s: _}
-  - {t: ']', s: '}', type: held}
+  - HU AACU
+  - HU EACU
+  - HU ODIA
+  - HU UDIA
+  - {t: HU UACU, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -170,8 +170,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '[', s: '{'}
-  - NUBS
+  - HU ODAC
+  - HU IACU
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
