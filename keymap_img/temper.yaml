@@ -158,11 +158,7 @@ layers:
   - (RA(ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD I)))
   - '&lang_hu_o'
   - {t: ▽, type: trans}
-  - Sft+ (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD APOSTROPHE AND QUOTE))
-  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD LEFT BRACKET AND LEFT BRACE))
-  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD RIGHT BRACKET AND RIGHT BRACE))
-  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD BACKSLASH AND PIPE))
-  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD EQUAL AND PLUS))
+  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD APOSTROPHE AND QUOTE))
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -170,8 +166,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD 0 AND RIGHT PARENTHESIS))
-  - (ZMK HID USAGE(HID USAGE KEY HID USAGE KEY KEYBOARD MINUS AND UNDERSCORE))
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
