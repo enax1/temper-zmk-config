@@ -49,7 +49,7 @@
         comma_semi: comma_semi {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp COMMA>, <&kp SEMI>;
+            bindings = <&kp HU_COMMA>, <&kp HU_SEMI>;
 
             mods = <(MOD_LSFT)>;
         };
@@ -57,7 +57,7 @@
         dot_colon: dot_colon {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp DOT>, <&kp COLON>;
+            bindings = <&kp HU_DOT>, <&kp HU_COLON>;
 
             mods = <(MOD_LSFT)>;
         };
@@ -65,7 +65,7 @@
         qmrk_excl: qmrk_excl {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp QMARK>, <&kp EXCL>;
+            bindings = <&kp HU_QMARK>, <&kp HU_EXCL>;
 
             mods = <(MOD_LSFT)>;
         };
@@ -73,7 +73,7 @@
         slh_morph: slh_morph {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp FSLH>, <&kp BSLH>;
+            bindings = <&kp HU_FSLH>, <&kp HU_BSLH>;
 
             mods = <(MOD_LSFT)>;
         };
@@ -81,7 +81,7 @@
         amps_morph: amps_morph {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp AMPS>, <&kp PIPE>;
+            bindings = <&kp HU_AMPS>, <&kp HU_PIPE>;
 
             mods = <(MOD_LSFT)>;
         };
@@ -118,14 +118,20 @@
             compatible = "zmk,behavior-tap-dance";
             label = "LANG_HU_U";
             #binding-cells = <0>;
-            bindings = <&kp HU_UACU>, <&kp HU_UDIA>, <&kp HU_UDAC>;
+            bindings =
+                <&kp LS(HU_U_ACUTE)>,
+                <&kp HU_U_UMLAUT>,
+                <&kp HU_U_DOUBLE_ACUTE>;
         };
 
         lang_hu_o: lang_hu_o {
             compatible = "zmk,behavior-tap-dance";
             label = "LANG_HU_O";
             #binding-cells = <0>;
-            bindings = <&kp HU_OACU>, <&kp HU_ODIA>, <&kp HU_UDAC>;
+            bindings =
+                <&kp HU_O_ACUTE>,
+                <&kp HU_O_UMLAUT>,
+                <&kp HU_O_DOUBLE_ACUTE>;
         };
 
         ht_left_layer: ht_left_layer {
