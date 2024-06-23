@@ -19,7 +19,7 @@ layers:
   - {t: HU J, h: ⌘}
   - {t: HU K, h: ⎇}
   - {t: HU L, h: ⌃}
-  - {t: ⇧, h: ;}
+  - {t: RSHIFT, h: HU SEMI}
   - HU Z
   - HU X
   - HU C
@@ -27,9 +27,9 @@ layers:
   - HU B
   - HU N
   - HU M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - /
+  - HU COMMA
+  - HU DOT
+  - HU FSLH
   - ⌘
   - num
   - {t: ⇧, s: ⇪}
@@ -37,36 +37,36 @@ layers:
   - nav
   - {t: BACKSPACE, s: Alt+ BACKSPACE}
   num:
-  - '~'
-  - '@'
-  - '{'
-  - '}'
-  - '%'
-  - '*'
-  - '7'
-  - '8'
-  - '9'
-  - {t: '-', s: _}
-  - ^
-  - '#'
-  - (
-  - )
-  - $
-  - _
-  - '4'
-  - '5'
-  - '6'
-  - +
+  - HU TILDE
+  - HU AT
+  - HU LBRC
+  - HU RBRC
+  - HU PRCNT
+  - HU STAR
+  - HU 7
+  - HU 8
+  - HU 9
+  - HU MINUS
+  - HU CARET
+  - HU HASH
+  - HU LPAR
+  - HU RPAR
+  - HU DLLR
+  - HU UNDER
+  - HU 4
+  - HU 5
+  - HU 6
+  - HU PLUS
   - {t: '&', s: '|'}
-  - <
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - '>'
+  - HU LT
+  - HU LBKT
+  - HU RBKT
+  - HU GT
   - {t: /, s: \}
-  - '1'
-  - '2'
-  - '3'
-  - {t: '=', s: +}
+  - HU 1
+  - HU 2
+  - HU 3
+  - HU EQUAL
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -150,19 +150,19 @@ layers:
   lang_hu:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - HU EACU
+  - HU E ACUTE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&lang_hu_u'
-  - HU IACU
+  - HU I ACUTE
   - '&lang_hu_o'
   - {t: ▽, type: trans}
-  - HU AACU
-  - HU EACU
-  - HU ODIA
-  - HU UDIA
-  - {t: HU UACU, type: held}
+  - Sft+ HU A ACUTE
+  - HU O DOUBLE ACUTE
+  - HU U ACUTE
+  - HU U DOUBLE ACUTE
+  - {t: HU O ACUTE, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -170,8 +170,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - HU ODAC
-  - HU IACU
+  - HU O UMLAUT
+  - HU U UMLAUT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
