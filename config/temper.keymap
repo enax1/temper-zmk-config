@@ -179,7 +179,7 @@
             bindings = <
   &kp HU_TILDE  &kp HU_AT    &kp HU_LBRC  &kp HU_RBRC  &kp HU_PRCNT    &kp HU_STAR   &kp HU_N7  &kp HU_N8  &kp HU_N9  &kp HU_MINUS
   &kp HU_CARET  &kp HU_HASH  &kp HU_LPAR  &kp HU_RPAR  &kp HU_DLLR     &kp HU_UNDER  &kp HU_N4  &kp HU_N5  &kp HU_N6  &kp HU_PLUS
-  &amps_morph   &kp HU_LT    &kp HU_LBKT  &kp HU_RBKT  &kp HU_GT       &slh_morph    &kp HU_N1  &kp HU_N2  &kp HU_N3  &kp HU_EQUAL
+  &amps_morph   &kp HU_LT    &kp HU_LBKT  &kp HU_RBKT  &kp HU_GT       &kp RET       &kp HU_N1  &kp HU_N2  &kp HU_N3  &kp HU_EQUAL
                              &trans       &trans       &trans          &kp N0        &trans     &trans
             >;
         };
