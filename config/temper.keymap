@@ -173,6 +173,8 @@
   &kp HU_Z              &kp HU_X             &kp HU_C            &kp HU_V            &kp HU_B                 &kp HU_N                &kp HU_M             &kp HU_COMMA         &kp HU_DOT            &kp HU_FSLH
                                              &kp LGUI            &mo 1               &smart_shft              &kp SPACE               &mo 2                &super_bspc
             >;
+
+            label = "def";
         };
 
         num_layer {
@@ -182,6 +184,8 @@
   &amps_morph   &kp HU_LT    &kp HU_LBKT  &kp HU_RBKT  &kp HU_GT       &kp RET       &kp HU_N1  &kp HU_N2  &kp HU_N3  &kp HU_EQUAL
                              &trans       &trans       &trans          &kp N0        &trans     &trans
             >;
+
+            label = "num";
         };
 
         nav_layer {
@@ -191,6 +195,8 @@
   &trans     &kp DEL    &trans    &trans    &trans     &trans    &kp RET   &trans   &trans     &trans
                         &trans    &trans    &trans     &trans    &trans    &trans
             >;
+
+            label = "nav";
         };
 
         fun_layer {
@@ -200,6 +206,8 @@
   &bt BT_CLR    &kp C_PREV    &bt BT_CLR_ALL  &kp C_NEXT    &bootloader     &bootloader  &kp F1  &kp F2  &kp F3  &kp F10
                               &trans          &trans        &trans          &trans       &trans  &trans
             >;
+
+            label = "fun";
         };
 
         lang_hu {
@@ -209,6 +217,8 @@
   &trans          &trans  &trans          &trans  &trans    &trans  &trans      &trans          &trans      &trans
                           &trans          &trans  &trans    &trans  &trans      &trans
             >;
+
+            label = "lang";
         };
     };
 };
