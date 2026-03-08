@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: temper}
 layers:
-  default:
+  def:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Q))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD W))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD E))
@@ -112,7 +112,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   fun:
-  - {t: default, h: toggle}
+  - {t: def, h: toggle}
   - MUTE
   - VOL DN
   - VOL UP
@@ -148,7 +148,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  lang_hu:
+  lang:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SEMICOLON AND COLON))
